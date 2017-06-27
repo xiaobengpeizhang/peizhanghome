@@ -1,0 +1,84 @@
+<html lang="zh">
+    <head>
+        <title>给我留言</title>
+        <meta charset="UTF-8">
+        <link type="text/css" rel="stylesheet" href="../base.css">
+    </head>
+    <body>
+        <div id="header">
+      <img id="headerLogo"
+           src="../images/headerLogo.gif" alt="Starbuzz Coffee logo image">
+      <img id="headerSlogan"
+           src="../images/headerSlogan.gif" alt="Providing all the caffeine you need to power your life.">
+    </div>
+        <nav>
+            <ul>
+                <li><a href="../index.html">佩璋的主页</a></li>
+                <li><a href="../peizhangmovies/index.html">佩璋做的视频</a></li>
+                <li><a href="../peizhangphotos/index.html">佩璋拍的照片</a></li>
+                <li><a href="../xiaobengeveryday/index.html">小奔每日一照</a></li>
+                <li class="selected"><a href="index.html">给我留言</a></li>
+                <li><a href="../about/index.html">关于</a></li>
+            </ul>
+        </nav>
+        <div id="givemenotes">
+            <form method="post" action="../php/report.php">
+                <div class="tableRow">
+                    <p>你的性别：</p>
+                    <p>
+                        <input type="radio" name="sex" value="male" id="male"><label for="male">男</label>
+                        <input type="radio" name="sex" value="female" id="female"><label for="female">女</label>
+                    </p>
+                </div>
+                 <div class="tableRow">
+                    <p>最喜欢的编程语言：</p>
+                    <p>
+                        <select name="favouritelanguage">
+                            <option value="c">C</option>
+                            <option value="c++">C++</option>
+                            <option value="java">Java</option>
+                            <option value="php">PHP</option>
+                            <option value="js">JavaScript</option>
+                            <option value="swift">Swift</option>
+                            <option value="oc">Objective-C</option>
+                            <option value="python">Python</option>
+                            <option value="ruby">Ruby</option>
+                        </select>
+                    </p>
+                </div>
+                <div class="tableRow">
+                    <p>写了多少年程序：</p>
+                    <p>
+                        <input type="number" name="number">
+                    </p>
+                </div>
+                <div class="tableRow">
+                    <p>坐标：</p>
+                    <input type="text" name="location" value="" placeholder="上海">
+                </div>
+                <div class="tableRow">
+                    <p>电子邮箱：</p>
+                    <p>
+                        <input type="e-mail" name="email" value="">
+                    </p>
+                </div>  
+                <div class="tableRow">
+                    <p>想说的话：</p>
+                    <p>
+                        <textarea name="comment"></textarea>
+                    </p>
+                </div> 
+                <div class="tableRow">
+                    <p></p>
+                    <p>
+                        <input type="submit" name="submit" value="发送">
+                    </p>
+                </div>            
+            </form>
+        </div>
+        <div id="footer">
+            &copy; 2017, peizhang
+            <br>
+        </div>
+    </body>
+</html>

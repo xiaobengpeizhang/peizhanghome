@@ -1,0 +1,31 @@
+
+<html lang="zh">
+    <head>
+        <meta charset="UTF-8">
+        <title>小奔每日一照</title>
+        <style type="text/css">
+        body {
+            background-color: #eaf3da;
+            padding: 10px 10px 10px 10px;
+            margin-left: 20%;
+            margin-right: 20%;
+        }
+        </style>
+    </head>
+    <body>
+        <h2>2017/05/10</h2>
+        <p>
+            <a href="origins/2017.05.10.jpg"><img src="thumbnails/2017.05.10thumbnail.jpg" alt="小奔第一次坐磁悬浮列车">
+            </a>
+        </p>
+        <p>
+            小奔第一次坐磁悬浮列车，其实并没有感觉很快嘛。
+        </p>
+        <h2>2017/05/11</h2>
+        <p>
+            <a href="origins/2017.05.11.jpg"><img src="thumbnails/2017.05.11thumbnail.jpg" alt="一起去看了电影《摔跤吧，爸爸》">
+            </a>
+        </p>
+        <p>心中真正的男神阿米尔汗主演，口碑非常好。非常精彩的电影，看的很开心。</p>
+    </body>
+</html>

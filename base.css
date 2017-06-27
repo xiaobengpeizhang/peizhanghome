@@ -1,0 +1,179 @@
+ul {
+    background-color: #efe5d0;
+    margin: 10px 10px 0px 10px;
+    list-style-type: none;
+    padding: 5px 0px 5px 0px;    
+}
+
+ul li {
+    display: inline;
+    padding:10px 10px 10px 10px;
+}
+
+ul li a:link, ul li a:visited {
+    color: #954b4b;
+    border-bottom: none;
+    font-weight: bold;
+}
+
+ul li.selected {
+    background-color: #c8b99c;
+}
+ul li:hover {
+    background-color: #c8b99C;
+}
+
+/*ul li a:hover {
+    background-color: #ffd;
+}*/
+
+div#tableContainer {
+    display: table;
+    border-spacing: 10px;
+}
+
+div#tableRow {
+    display: table-row;
+}
+
+div#peizhangmovies {
+    display: table-cell;
+    background-color: #efe5d0;
+    padding: 15px;
+    font-size: 105%;
+    vertical-align: middle;
+    width: 30%;
+}
+
+
+div#peizhangphotos {
+    display: table-cell;
+    padding: 15px;
+    vertical-align: top;
+    font-size: 105%;
+    background-color: #efe5d0;
+    width: 40%:
+}
+
+div#photo {
+    display: table-cell;
+    padding: 15px;
+    vertical-align: top;
+    font-size: 105%;
+    background-color: #efe5d0;
+    width: 30%;
+}
+
+div#footer {
+    background-color: #675c47;
+    color: #efe5d0;
+    text-align: center;
+    padding: 15px;
+    margin: 10px;
+    font-size: 90%;
+    /*position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;*/
+    clear: right;
+}
+
+body {
+    background-color: #b5a789;
+    font-size: small;
+    margin: 0px;
+    /*font-family: Georgia, 'Times New Roman', Times, serif;*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 2em;
+}
+
+#header {
+    background-color: #675c47;
+    margin: 10px;
+    height: 108px;
+}
+
+h1 {
+    font-size: 120%;
+    color: #954b4b;
+}
+
+a:link {
+    text-decoration: none;
+    color: #b76666;
+    border-bottom: thin dotted #b76666;
+}
+
+a:visited {
+    color: #675c47;
+    text-decoration: none;
+    border-bottom: thin dotted #675c47;
+}
+
+a {
+    text-decoration: line-through;
+}
+
+#header img#headerSlogan {
+	float: right;
+}
+
+div#givemenotes {
+    width: 800px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #675c47;
+    margin-left: auto;
+    background-color: #efe5d0;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+div#about {
+    width: 800px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #675c47;
+    margin-left: auto;
+    background-color: #efe5d0;
+    margin-right: auto;
+    margin-top: 10px;
+    text-align: center;
+}
+
+div#about p {
+    line-height: 3.0em;
+    font-size: 1.5em;
+}
+
+form textarea {
+    width: 500px;
+    height: 200px;
+}
+
+form {
+    display: table;
+    padding: 10px;
+    /*border: thin dotted #7e7e7e;*/
+    /*background-color: #e1ceb8;*/
+}
+
+div.tableRow {
+    display: table-row;
+}
+
+div.tableRow p {
+    display: table-cell;
+    vertical-align: top;
+    padding: 3px;
+}
+
+div.tableRow p:first-child {
+    text-align: right;
+}
+
+audio {
+    margin: 10px;
+    float: right;
+    width: 100px;
+}
